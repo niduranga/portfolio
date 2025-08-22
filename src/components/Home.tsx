@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     const mood = useSelector((state: RootState) => state.appModeChange.appMood)
 
     return (
-        <div className="min-h-screen text-white flex items-center justify-center px-6 md:px-16">
+        <div className="min-h-screen text-white flex items-center justify-center px-6 md:px-16 mt-14 md:mt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl w-full">
                 <div className="space-y-6">
                     <h1 className={` text-4xl md:text-6xl font-extrabold leading-tight animate-fade-in ${mood === false ?"text-gray-700" :"text-gray-300"} `}>
