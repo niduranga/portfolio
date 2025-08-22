@@ -15,6 +15,10 @@
     {
       "src": "/projects/:projectName",
       "dest": "/"
+    },
+    {
+      "src": "/contact",
+      "dest": "/"
     }
   ]
 }
