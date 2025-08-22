@@ -13,7 +13,7 @@
       "dest": "/"
     },
     {
-      "src": "/projects/:projectName",
+      "src": "/projects/(.*)",
       "dest": "/"
     },
     {
